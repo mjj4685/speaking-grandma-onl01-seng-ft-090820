@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 speak_to_grandma = "I LOVE YOU GRANDMA!".uppercase
- 
+
 if speak_to_grandma == "hungry"
   puts "Refilling food bowl."
 elsif speak_to_grandma == "thirsty"
@@ -23,6 +23,3 @@ elsif speak_to_grandma == "cuddly"
 else
   puts "Reading newspaper."
 end
-  
-  
-
