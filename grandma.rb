@@ -19,5 +19,5 @@ elsif speak_to_grandma=="I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
 else speak_to_grandma ! "#{phrase}".upcase
     puts " HUH?! SPEAK UP, SONNY!"
-    end 
+    end
 end
