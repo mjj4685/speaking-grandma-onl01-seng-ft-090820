@@ -14,11 +14,11 @@
 
 def speak_to_grandma(phrase)
   phrase = "I LOVE YOU GRANDMA!"
-if phrase=="#{phrase}".uppercase
+if phrase=="#{phrase}".upcase
     puts "NO, NOT SINCE 1938!"
 elsif phrase=="I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-else phrase != "#{phrase}".uppercase
+else phrase != "#{phrase}".upcase
     puts " HUH?! SPEAK UP, SONNY!"
     end
 end
