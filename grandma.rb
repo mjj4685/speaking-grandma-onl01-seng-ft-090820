@@ -17,7 +17,7 @@ if phrase=="HI!".upcase
     puts "NO, NOT SINCE 1938!"
 elsif phrase=="I LOVE YOU GRANDMA!".upcase
     puts "I LOVE YOU TOO PUMPKIN!"
-else phrase != "#{phrase}".upcase
+else phrase != "Hi Nana, how are you?".upcase
     puts " HUH?! SPEAK UP, SONNY!"
     end
 end
