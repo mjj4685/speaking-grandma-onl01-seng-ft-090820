@@ -12,14 +12,12 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-speak_to_grandma = "I LOVE YOU GRANDMA!".uppercase
-
-if speak_to_grandma == "hungry"
-  puts "Refilling food bowl."
-elsif speak_to_grandma == "thirsty"
-  puts "Refilling water bowl."
-elsif speak_to_grandma == "cuddly"
-  puts "Snuggling."
-else
-  puts "Reading newspaper."
+def speak_to_grandma(phrase)
+if speak_to_grandma=="#{phrase}".upcase
+    puts "NO, NOT SINCE 1938!"
+elsif speak_to_grandma=="I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+else speak_to_grandma ! "#{phrase}".upcase
+    puts " HUH?! SPEAK UP, SONNY!"
+    end 
 end
