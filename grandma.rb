@@ -11,6 +11,18 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def speak_to_grandma(phrase="Grandma, that's not polite to say")
-  puts phrase
+
+speak_to_grandma = "I LOVE YOU GRANDMA!".uppercase
+ 
+if speak_to_grandma == "hungry"
+  puts "Refilling food bowl."
+elsif speak_to_grandma == "thirsty"
+  puts "Refilling water bowl."
+elsif speak_to_grandma == "cuddly"
+  puts "Snuggling."
+else
+  puts "Reading newspaper."
 end
+  
+  
+
